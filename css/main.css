@@ -1,5 +1,6 @@
 body {
 	background-color: #ecf7fb;
+	margin: 0 auto;
 }
 ul {
 	list-style-type: none;
@@ -34,10 +35,13 @@ section {
 	margin-top: 20px;
 	background-color: #2c818b;
 	padding: 20px;
+	clear: both;
+	width: 100%;
+	height: 250px;
 }
 
 .imagenes {
-	width: 350px;
+	width: 27%;
 	float: left;
 	margin: 27px;
 	height: 220px;
@@ -49,19 +53,31 @@ p {
 	margin: 10px;
 	font-family: "Baloo Paaji";
 }
+.container_images {
+	display: block;
+	clear: both;
+}
+
+.img_1 {
+	float: right;
+	width: 20%;
+	margin: 20px;
+}
 
 .img_2 {
-	float: left;
+	float: right;
+	width: 20%;
 	margin: 20px;
 }
 
 .img_3 {
 	float: right;
+	width: 20%;
 	margin: 20px;
 }
 
 .derecho {
-	width: 800px;
+	width: 46%;
 	float: right;
 	background: #ecf7fb;
 	margin-left: 20px;
@@ -69,14 +85,14 @@ p {
 
 .derecho img {
 	float: left;
+	width: 20%;
 	padding: 20px;
 }
 
 .izquierdo {
-	width: 400px;
-	float: right;
+	width: 46%;
+	float: left;
 	background: #ecf7fb;
-	padding: 20px;
 	margin-right: 20px;
 }
 
@@ -97,7 +113,10 @@ p {
 }
 
 footer {
-	margin-top: 20px;
+	clear: both;
+	margin: 0 auto;
+	width: auto;
+	height: 50px;
+	padding: 20px;
 	background-color: #2c818b;
-	padding: 30px;
 }
